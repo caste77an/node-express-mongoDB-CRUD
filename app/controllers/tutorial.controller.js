@@ -10,6 +10,7 @@ exports.create = (req, res) => {
   }
 
   // Create a Tutorial
+  // column data modified 20210802
   const tutorial = new Tutorial({
     user: req.body.user,
     email: req.body.email,

@@ -1,3 +1,4 @@
+// column data modified 20210802
 module.exports = (mongoose) => {
   var schema = mongoose.Schema(
     {
